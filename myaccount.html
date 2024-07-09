@@ -78,6 +78,43 @@
             .clear {
               clear: both;
             }
+            .sidebar{
+                list-style: none;
+                width: 250px;
+    background: #d1b2d3;
+    height: 100vh;
+    position: fixed;
+    padding: 20px 10px;
+    box-sizing: border-box;
+                
+   
+}
+.sidebar a{
+    display: block;
+     padding: 10px;
+     color: white;
+    text-decoration: none;
+     margin-bottom: 10px;
+     border-radius: 4px;
+        
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar ul li.active,
+.sidebar ul li:hover {
+    background: #a76ca9;
+    color: white;
+}
+
             </style>
         <div class="sidebar">
             <h1><img src="html_logo.png" width="25" height="25" alt="Workspace Icon"> Workspace</h1>
